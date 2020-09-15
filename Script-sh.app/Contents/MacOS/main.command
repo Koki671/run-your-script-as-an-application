@@ -10,6 +10,8 @@ FILEPATH=$(dirname $0)
 BASEPATH=${FILEPATH%/*/*/*}
 echo $BASEPATH
 
+$BASEPATH/netbeans
+
 # TODO
 # Edit info.plist for copyright and organisation
 # Replace cmd.icns
